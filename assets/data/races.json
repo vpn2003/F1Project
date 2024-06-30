@@ -1,0 +1,272 @@
+{
+    "data": {
+      "races": {
+        "response": [
+          {
+            "date": "2024-03-02T15:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Sakhir",
+                "country": "Bahrain"
+              },
+              "name": "Bahrain Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-03-09T17:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Djeddah",
+                "country": "Saudi Arabia"
+              },
+              "name": "Saudi Arabia Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-03-24T04:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Melbourne",
+                "country": "Australia"
+              },
+              "name": "Australia Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-04-07T05:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Suzuka",
+                "country": "Japan"
+              },
+              "name": "Japan Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-04-21T07:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Anting",
+                "country": "China"
+              },
+              "name": "China Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-05-05T20:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Miami",
+                "country": "USA"
+              },
+              "name": "Miami Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-05-19T13:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Imola",
+                "country": "Italy"
+              },
+              "name": "Emilia Romagna Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-05-26T13:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Monte-Carlo",
+                "country": "Monaco"
+              },
+              "name": "Monaco Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-06-09T18:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Montréal",
+                "country": "Canada"
+              },
+              "name": "Canada Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-06-23T13:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Montmeló",
+                "country": "Spain"
+              },
+              "name": "Spain Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-06-30T13:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Spielberg",
+                "country": "Austria"
+              },
+              "name": "Austria Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-07-07T14:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Silverstone Northamptonshire",
+                "country": "United Kingdom"
+              },
+              "name": "Great Britain Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-07-21T13:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Mogyoród",
+                "country": "Hungary"
+              },
+              "name": "Hungary Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-07-28T13:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Francorchamps",
+                "country": "Belgium"
+              },
+              "name": "Belgium Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-08-25T13:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Zandvoort",
+                "country": "Netherlands"
+              },
+              "name": "Netherlands Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-09-01T13:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Monza",
+                "country": "Italy"
+              },
+              "name": "Italy Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-09-15T11:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Bakou",
+                "country": "Azerbaijan"
+              },
+              "name": "Azerbaijan Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-09-22T12:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Singapour",
+                "country": "Singapore"
+              },
+              "name": "Singapore Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-10-20T19:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Elroy",
+                "country": "USA"
+              },
+              "name": "USA Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-10-27T20:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Mexico",
+                "country": "Mexico"
+              },
+              "name": "Mexico Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-11-03T17:00:00Z",
+            "competition": {
+              "location": {
+                "city": "São Paulo",
+                "country": "Brazil"
+              },
+              "name": "Brazil Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-11-24T06:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Las Vegas",
+                "country": "USA"
+              },
+              "name": "Las Vegas Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-12-01T17:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Losail",
+                "country": "Qatar"
+              },
+              "name": "Qatar Grand Prix"
+            },
+            "season": 2024
+          },
+          {
+            "date": "2024-12-08T13:00:00Z",
+            "competition": {
+              "location": {
+                "city": "Yas Marina, Abou Dabi ",
+                "country": "United Arab Emirates"
+              },
+              "name": "Abu Dhabi Grand Prix"
+            },
+            "season": 2024
+          }
+        ]
+      }
+    }
+  }
