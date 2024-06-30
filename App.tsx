@@ -1,20 +1,24 @@
-import React, { useState, useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, FlatList, SafeAreaView } from 'react-native';
+import { StyleSheet, FlatList, SafeAreaView, ActivityIndicator} from 'react-native';
 import RaceListItem from './src/Components/RaceListItem';
 import racesResponse from './assets/data/races.json';
-import * as Font from 'expo-font';
+import { useFonts } from 'expo-font';
 const races = racesResponse.data.races.response;
 
 export default function App() {
-  const [fontsLoaded, setFontsLoaded] = useState(false);
+  const [fontsLoaded] = useFonts({
+    'F1-Bold': require('./assets/fonts/Formula1-Wide.otf'),
+    'F1-Regular': require('./assets/fonts/Formula1-Regular.otf'),
+    'F1-Wide': require('./assets/fonts/Formula1-Wide.otf'),
+  });
 
-  const loadFonts = async () => {
-    await Font.loadAsync({
-      'F1-Black': require('./assets/fonts/Formula1-Black.ttf'),
-    });
-    setFontsLoaded(true);
-  };
+  if (!fontsLoaded) {
+    return (
+      <SafeAreaView style={styles.loadingContainer}>
+        <ActivityIndicator size="large" />
+      </SafeAreaView>
+    );
+  }
 
   return (
     <SafeAreaView style={styles.container}>
@@ -35,5 +39,10 @@ const styles = StyleSheet.create({
     marginLeft: 3,
     marginRight: 3,
     marginBottom: 0
-  }
+  },
+  loadingContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 });
