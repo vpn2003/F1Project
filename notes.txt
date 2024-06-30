@@ -5,3 +5,22 @@ curl --request GET \
     --url 'https://v1.formula-1.api-sports.io/races?season=2024&type=Race' \
     --header 'x-rapidapi-host: v1.formula-1.api-sports.io' \
     --header 'x-rapidapi-key: 8cb5bec7bc9d82a58c510f7df8407dac'
+
+#stepzen
+stepzen import curl --request GET \
+    --url 'https://v1.formula-1.api-sports.io/races?season=2024&type=Race' \
+    --header 'x-rapidapi-host: v1.formula-1.api-sports.io' \
+    --header 'x-rapidapi-key: 8cb5bec7bc9d82a58c510f7df8407dac'\
+    --query-name "races" \
+	--query-type "Race" \
+	--name "races"
+
+#import race rankings
+stepzen import curl --request GET \
+    --url 'https://v1.formula-1.api-sports.io/rankings/races?race=50' \
+    --header 'x-rapidapi-host: v1.formula-1.api-sports.io' \
+    --header 'x-rapidapi-key: 8cb5bec7bc9d82a58c510f7df8407dac' \
+		--query-name "raceRankings" \
+		--query-type "RaceRankings" \
+		--name "raceRankings" \
+		--prefix "rank"

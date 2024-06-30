@@ -68,6 +68,7 @@ export default function RaceListItem({ item }: { item: (typeof races[0]) }) {
     country: {
       fontSize: 20,
       fontWeight: 'bold',
+      fontFamily: 'F1-Black'
     },
     description: {
       color: 'dimgray'
