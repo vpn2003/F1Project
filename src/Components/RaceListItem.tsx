@@ -8,7 +8,7 @@ const races = racesResponse.data.races.response;
 
 export default function RaceListItem({ item, round }: { item: (typeof races)[0]; round: number; }) {
     return (
-      <Link href={"/race"} asChild>
+      <Link href={`/race/${item.competition.id}`} asChild>
         <Pressable style={styles.itemContainer}>
           <View style={styles.datesContainer}>
             <Text style={styles.date}>{dayjs(item.date).subtract(2, 'days').format('DD')}-{dayjs(item.date).format('DD')}</Text>
