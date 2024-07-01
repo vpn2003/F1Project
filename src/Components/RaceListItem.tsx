@@ -52,7 +52,7 @@ export default function RaceListItem({ item, round }: { item: (typeof races)[0];
       borderColor: 'gainsboro',
       alignItems: 'center',
       justifyContent: 'center',
-      width: 75
+      width: 80
     },
     date: {
       fontFamily: 'F1-Regular',
@@ -65,8 +65,10 @@ export default function RaceListItem({ item, round }: { item: (typeof races)[0];
       overflow: 'hidden',
       color: 'dimgray',
       fontWeight: 'bold',
+      fontSize: 12,
       marginTop: 3,
-      marginRight: 10,
+      marginRight: 7,
+      marginLeft: 7,
       fontFamily: 'F1-Regular'
     },
     round: {
