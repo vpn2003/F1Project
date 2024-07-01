@@ -14,7 +14,6 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
-      <Link href="/about"><Text>Go to about</Text></Link>
       <FlatList
         data={sortedRaces}
         renderItem={({ item, index }) => <RaceListItem item={item} round ={sortedRaces.length-index} />}
