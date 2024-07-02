@@ -18,7 +18,6 @@ export default function HomeScreen() {
         data={sortedRaces}
         renderItem={({ item, index }) => <RaceListItem item={item} round ={sortedRaces.length-index} />}
       />
-      <StatusBar style="auto" />
     </View>
   );
 }

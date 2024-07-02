@@ -1,4 +1,4 @@
-import { Stack, Tabs, withLayoutContext} from 'expo-router';
+import { Stack, Tabs, withLayoutContext } from 'expo-router';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 
@@ -7,23 +7,24 @@ const TopTabs = withLayoutContext(Tab.Navigator);
 export default function RaceLayout() {
     return (
         <>
-            <Stack.Screen options={{title: "Race Details"}}></Stack.Screen>
-            <TopTabs 
+            <Stack.Screen options={{ title: "Race Details" }} />
+            <TopTabs
                 screenOptions={{
-                    tabBarStyle: {backgroundColor: '#FF1E00'},
+                    tabBarStyle: { backgroundColor: '#FF1E00' },
                     tabBarInactiveTintColor: 'gainsboro',
                     tabBarActiveTintColor: 'white',
-                    tabBarIndicatorStyle:{
+                    tabBarIndicatorStyle: {
                         backgroundColor: 'white',
                         height: 5,
                     },
-                    tabBarLabelStyle:{
+                    tabBarLabelStyle: {
                         fontWeight: 'bold',
                         fontFamily: 'F1-Regular'
                     }
-                    
-            }}
-            />
+                }}
+            >
+                <TopTabs.Screen name="index" options={{ title: 'Details' }} />
+            </TopTabs>
         </>
     );
 }
