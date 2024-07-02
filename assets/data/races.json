@@ -1,296 +1,807 @@
 {
   "data": {
     "races": {
+      "errors": [],
+      "get": "races",
+      "parameters": {
+        "season": 2024,
+        "type": "RACE"
+      },
       "response": [
         {
+          "circuit": {
+            "id": 2,
+            "image": "https://media.api-sports.io/formula-1/circuits/2.png",
+            "name": "Bahrain International Circuit"
+          },
           "date": "2024-03-02T15:00:00Z",
+          "distance": "308.5 Kms",
+          "id": 1857,
+          "laps": {
+            "current": null,
+            "total": 57
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 25
+            },
+            "time": "1:32.608"
+          },
           "competition": {
+            "id": 2,
             "location": {
               "city": "Sakhir",
               "country": "Bahrain"
             },
-            "name": "Bahrain Grand Prix",
-            "id": 2
+            "name": "Bahrain Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 29,
+            "image": "https://media.api-sports.io/formula-1/circuits/29.png",
+            "name": "Jeddah Corniche Circuit"
+          },
           "date": "2024-03-09T17:00:00Z",
+          "distance": "308.7 Kms",
+          "id": 1862,
+          "laps": {
+            "current": null,
+            "total": 50
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 34
+            },
+            "time": "1:31.632"
+          },
           "competition": {
+            "id": 32,
             "location": {
               "city": "Djeddah",
               "country": "Saudi Arabia"
             },
-            "name": "Saudi Arabia Grand Prix",
-            "id": 32
+            "name": "Saudi Arabia Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 1,
+            "image": "https://media.api-sports.io/formula-1/circuits/1.png",
+            "name": "Albert Park Circuit"
+          },
           "date": "2024-03-24T04:00:00Z",
+          "distance": "306.1 Kms",
+          "id": 1867,
+          "laps": {
+            "current": null,
+            "total": 58
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 34
+            },
+            "time": "1:19.813"
+          },
           "competition": {
+            "id": 1,
             "location": {
               "city": "Melbourne",
               "country": "Australia"
             },
-            "name": "Australia Grand Prix",
-            "id": 1
+            "name": "Australia Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 19,
+            "image": "https://media.api-sports.io/formula-1/circuits/19.png",
+            "name": "Suzuka International Racing Course"
+          },
           "date": "2024-04-07T05:00:00Z",
+          "distance": "307.8 Kms",
+          "id": 1872,
+          "laps": {
+            "current": null,
+            "total": 53
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 25
+            },
+            "time": "1:33.706"
+          },
           "competition": {
+            "id": 19,
             "location": {
               "city": "Suzuka",
               "country": "Japan"
             },
-            "name": "Japan Grand Prix",
-            "id": 19
+            "name": "Japan Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 4,
+            "image": "https://media.api-sports.io/formula-1/circuits/4.png",
+            "name": "Shanghai International Circuit"
+          },
           "date": "2024-04-21T07:00:00Z",
+          "distance": "305.3 Kms",
+          "id": 1877,
+          "laps": {
+            "current": null,
+            "total": 56
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 4
+            },
+            "time": "1:37.810"
+          },
           "competition": {
+            "id": 4,
             "location": {
               "city": "Anting",
               "country": "China"
             },
-            "name": "China Grand Prix",
-            "id": 4
+            "name": "China Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 31,
+            "image": "https://media.api-sports.io/formula-1/circuits/31.png",
+            "name": "Miami International Autodrome"
+          },
           "date": "2024-05-05T20:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1882,
+          "laps": {
+            "current": null,
+            "total": 57
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 97
+            },
+            "time": "1:30.634"
+          },
           "competition": {
+            "id": 34,
             "location": {
               "city": "Miami",
               "country": "USA"
             },
-            "name": "Miami Grand Prix",
-            "id": 34
+            "name": "Miami Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 27,
+            "image": "https://media.api-sports.io/formula-1/circuits/27.png",
+            "name": "Autodromo Enzo e Dino Ferrari"
+          },
           "date": "2024-05-19T13:00:00Z",
+          "distance": "309.3 Kms",
+          "id": 1887,
+          "laps": {
+            "current": null,
+            "total": 63
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 51
+            },
+            "time": "1:18.589"
+          },
           "competition": {
+            "id": 29,
             "location": {
               "city": "Imola",
               "country": "Italy"
             },
-            "name": "Emilia Romagna Grand Prix",
-            "id": 29
+            "name": "Emilia Romagna Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 7,
+            "image": "https://media.api-sports.io/formula-1/circuits/7.png",
+            "name": "Circuit de Monaco"
+          },
           "date": "2024-05-26T13:00:00Z",
+          "distance": "260.3 Kms",
+          "id": 1892,
+          "laps": {
+            "current": null,
+            "total": 78
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 20
+            },
+            "time": "1:14.165"
+          },
           "competition": {
+            "id": 7,
             "location": {
               "city": "Monte-Carlo",
               "country": "Monaco"
             },
-            "name": "Monaco Grand Prix",
-            "id": 7
+            "name": "Monaco Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 9,
+            "image": "https://media.api-sports.io/formula-1/circuits/9.png",
+            "name": "Circuit Gilles-Villeneuve"
+          },
           "date": "2024-06-09T18:00:00Z",
+          "distance": "305.3 Kms",
+          "id": 1897,
+          "laps": {
+            "current": null,
+            "total": 70
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 20
+            },
+            "time": "1:14.856"
+          },
           "competition": {
+            "id": 9,
             "location": {
               "city": "Montréal",
               "country": "Canada"
             },
-            "name": "Canada Grand Prix",
-            "id": 9
+            "name": "Canada Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 6,
+            "image": "https://media.api-sports.io/formula-1/circuits/6.png",
+            "name": "Circuit de Barcelona-Catalunya"
+          },
           "date": "2024-06-23T13:00:00Z",
+          "distance": "307.4 Kms",
+          "id": 1902,
+          "laps": {
+            "current": null,
+            "total": 66
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 49
+            },
+            "time": "1:17.115"
+          },
           "competition": {
+            "id": 6,
             "location": {
               "city": "Montmeló",
               "country": "Spain"
             },
-            "name": "Spain Grand Prix",
-            "id": 6
+            "name": "Spain Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 11,
+            "image": "https://media.api-sports.io/formula-1/circuits/11.png",
+            "name": "Red Bull Ring"
+          },
           "date": "2024-06-30T13:00:00Z",
+          "distance": "308.7 Kms",
+          "id": 1907,
+          "laps": {
+            "current": null,
+            "total": 71
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 4
+            },
+            "time": "1:07.694"
+          },
           "competition": {
+            "id": 11,
             "location": {
               "city": "Spielberg",
               "country": "Austria"
             },
-            "name": "Austria Grand Prix",
-            "id": 11
+            "name": "Austria Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 12,
+            "image": "https://media.api-sports.io/formula-1/circuits/12.png",
+            "name": "Silverstone Circuit"
+          },
           "date": "2024-07-07T14:00:00Z",
+          "distance": "306.8 Kms",
+          "id": 1912,
+          "laps": {
+            "current": null,
+            "total": 52
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          },
           "competition": {
+            "id": 12,
             "location": {
               "city": "Silverstone Northamptonshire",
               "country": "United Kingdom"
             },
-            "name": "Great Britain Grand Prix",
-            "id": 12
+            "name": "Great Britain Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Scheduled",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 14,
+            "image": "https://media.api-sports.io/formula-1/circuits/14.png",
+            "name": "Hungaroring"
+          },
           "date": "2024-07-21T13:00:00Z",
+          "distance": "306.7 Kms",
+          "id": 1917,
+          "laps": {
+            "current": null,
+            "total": 70
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          },
           "competition": {
+            "id": 14,
             "location": {
               "city": "Mogyoród",
               "country": "Hungary"
             },
-            "name": "Hungary Grand Prix",
-            "id": 14
+            "name": "Hungary Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Scheduled",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 15,
+            "image": "https://media.api-sports.io/formula-1/circuits/15.png",
+            "name": "Circuit de Spa-Francorchamps"
+          },
           "date": "2024-07-28T13:00:00Z",
+          "distance": "308.2 Kms",
+          "id": 1922,
+          "laps": {
+            "current": null,
+            "total": 44
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          },
           "competition": {
+            "id": 15,
             "location": {
               "city": "Francorchamps",
               "country": "Belgium"
             },
-            "name": "Belgium Grand Prix",
-            "id": 15
+            "name": "Belgium Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Scheduled",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 5,
+            "image": "https://media.api-sports.io/formula-1/circuits/5.png",
+            "name": "Circuit Zandvoort"
+          },
           "date": "2024-08-25T13:00:00Z",
+          "distance": "306.6 Kms",
+          "id": 1927,
+          "laps": {
+            "current": null,
+            "total": 72
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          },
           "competition": {
+            "id": 5,
             "location": {
               "city": "Zandvoort",
               "country": "Netherlands"
             },
-            "name": "Netherlands Grand Prix",
-            "id": 5
+            "name": "Netherlands Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Scheduled",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 16,
+            "image": "https://media.api-sports.io/formula-1/circuits/16.png",
+            "name": "Autodromo Nazionale Monza"
+          },
           "date": "2024-09-01T13:00:00Z",
+          "distance": "307.0 Kms",
+          "id": 1932,
+          "laps": {
+            "current": null,
+            "total": 53
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          },
           "competition": {
+            "id": 16,
             "location": {
               "city": "Monza",
               "country": "Italy"
             },
-            "name": "Italy Grand Prix",
-            "id": 16
+            "name": "Italy Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Scheduled",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 8,
+            "image": "https://media.api-sports.io/formula-1/circuits/8.png",
+            "name": "Baku City Circuit"
+          },
           "date": "2024-09-15T11:00:00Z",
+          "distance": "306.2 Kms",
+          "id": 1937,
+          "laps": {
+            "current": null,
+            "total": 51
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          },
           "competition": {
+            "id": 8,
             "location": {
               "city": "Bakou",
               "country": "Azerbaijan"
             },
-            "name": "Azerbaijan Grand Prix",
-            "id": 8
+            "name": "Azerbaijan Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Scheduled",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 17,
+            "image": "https://media.api-sports.io/formula-1/circuits/17.png",
+            "name": "Marina Bay Street Circuit"
+          },
           "date": "2024-09-22T12:00:00Z",
+          "distance": "306.3 Kms",
+          "id": 1942,
+          "laps": {
+            "current": null,
+            "total": 62
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          },
           "competition": {
+            "id": 17,
             "location": {
               "city": "Singapour",
               "country": "Singapore"
             },
-            "name": "Singapore Grand Prix",
-            "id": 17
+            "name": "Singapore Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Scheduled",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 20,
+            "image": "https://media.api-sports.io/formula-1/circuits/20.png",
+            "name": "Circuit of The Americas"
+          },
           "date": "2024-10-20T19:00:00Z",
+          "distance": "308.7 Kms",
+          "id": 1947,
+          "laps": {
+            "current": null,
+            "total": 56
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          },
           "competition": {
+            "id": 20,
             "location": {
               "city": "Elroy",
               "country": "USA"
             },
-            "name": "USA Grand Prix",
-            "id": 20
+            "name": "USA Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Scheduled",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 21,
+            "image": "https://media.api-sports.io/formula-1/circuits/21.png",
+            "name": "Autódromo Hermanos Rodríguez"
+          },
           "date": "2024-10-27T20:00:00Z",
+          "distance": "305.6 Kms",
+          "id": 1952,
+          "laps": {
+            "current": null,
+            "total": 71
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          },
           "competition": {
+            "id": 21,
             "location": {
               "city": "Mexico",
               "country": "Mexico"
             },
-            "name": "Mexico Grand Prix",
-            "id": 21
+            "name": "Mexico Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Scheduled",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 22,
+            "image": "https://media.api-sports.io/formula-1/circuits/22.png",
+            "name": "Autódromo José Carlos Pace"
+          },
           "date": "2024-11-03T17:00:00Z",
+          "distance": "305.9 Kms",
+          "id": 1957,
+          "laps": {
+            "current": null,
+            "total": 71
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          },
           "competition": {
+            "id": 22,
             "location": {
               "city": "São Paulo",
               "country": "Brazil"
             },
-            "name": "Brazil Grand Prix",
-            "id": 22
+            "name": "Brazil Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Scheduled",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 32,
+            "image": "https://media.api-sports.io/formula-1/circuits/32.png",
+            "name": "Las Vegas Strip Circuit"
+          },
           "date": "2024-11-24T06:00:00Z",
+          "distance": "310.1 Kms",
+          "id": 1962,
+          "laps": {
+            "current": null,
+            "total": 50
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          },
           "competition": {
+            "id": 35,
             "location": {
               "city": "Las Vegas",
               "country": "USA"
             },
-            "name": "Las Vegas Grand Prix",
-            "id": 35
+            "name": "Las Vegas Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Scheduled",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 30,
+            "image": "https://media.api-sports.io/formula-1/circuits/30.png",
+            "name": "Losail International Circuit"
+          },
           "date": "2024-12-01T17:00:00Z",
+          "distance": "308.9 Kms",
+          "id": 1967,
+          "laps": {
+            "current": null,
+            "total": 57
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          },
           "competition": {
+            "id": 33,
             "location": {
               "city": "Losail",
               "country": "Qatar"
             },
-            "name": "Qatar Grand Prix",
-            "id": 33
+            "name": "Qatar Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Scheduled",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         },
         {
+          "circuit": {
+            "id": 23,
+            "image": "https://media.api-sports.io/formula-1/circuits/23.png",
+            "name": "Yas Marina Circuit"
+          },
           "date": "2024-12-08T13:00:00Z",
+          "distance": "306.3 Kms",
+          "id": 1972,
+          "laps": {
+            "current": null,
+            "total": 58
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          },
           "competition": {
+            "id": 23,
             "location": {
               "city": "Yas Marina, Abou Dabi ",
               "country": "United Arab Emirates"
             },
-            "name": "Abu Dhabi Grand Prix",
-            "id": 23
+            "name": "Abu Dhabi Grand Prix"
           },
-          "season": 2024
+          "season": 2024,
+          "status": "Scheduled",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null
         }
-      ]
+      ],
+      "results": 24
     }
   }
 }
