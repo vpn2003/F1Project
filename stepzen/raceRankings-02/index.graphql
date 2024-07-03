@@ -1,0 +1,35 @@
+type RaceRankings {
+  errors: [JSON]
+  get: String
+  parameters: RankParameters
+  response: [RankResponseEntry]
+  results: Int
+}
+
+type RankParameters {
+  season: Int
+}
+
+type RankResponseEntry {
+  points: Int
+  position: Int
+  season: Int
+  team: RankTeam
+}
+
+type RankTeam {
+  id: Int
+  logo: String
+  name: String
+}
+
+type Query {
+  raceRankings(season: String): RaceRankings
+    @rest(
+      endpoint: "https://v1.formula-1.api-sports.io/rankings/teams"
+      headers: [
+        { name: "x-rapidapi-host", value: "v1.formula-1.api-sports.io" }
+        { name: "x-rapidapi-key", value: "8cb5bec7bc9d82a58c510f7df8407dac" }
+      ]
+    )
+}

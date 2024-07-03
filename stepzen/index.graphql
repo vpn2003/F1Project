@@ -1,3 +1,14 @@
-schema @sdl(files: ["races/index.graphql", "raceRankings/index.graphql"]) {
+schema
+  @sdl(
+    files: [
+      "races/index.graphql"
+      "raceRankings/index.graphql"
+      "raceRankings-01/index.graphql"
+      "raceRankings-02/index.graphql"
+      "raceRankings-03/index.graphql"
+      "raceRankings-04/index.graphql"
+      "rankings/index.graphql"
+    ]
+  ) {
   query: Query
 }
