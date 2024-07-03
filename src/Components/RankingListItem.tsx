@@ -14,7 +14,7 @@ export default function RankingListItem({ item }: RankingListItemProps){
             <Image source={{uri: item.driver.image}} style = {styles.driverImage}></Image>
             <View style = {styles.mini}>
                 <Text style= {styles.name}>{item.driver.name}</Text>
-                <Text style={{marginLeft: 3, fontFamily: 'F1-Regular', color: 'dimgray', fontSize: 13}}>{item.team.name}</Text>
+                <Text style={{marginLeft: 3, fontFamily: 'F1-Regular', color: 'dimgray', fontSize: 12}}>{item.team.name}</Text>
             </View>
             
             <Text style= {styles.time}>{item.time}</Text>
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
         padding: 10,
         margin: 5,
-        height: 50,
+        height: 60,
         flexDirection: 'row',
         alignItems: 'center',
         borderRadius: 5,
@@ -42,7 +42,6 @@ const styles = StyleSheet.create({
         elevation: 5,
     },
     position: {
-        marginLeft: 1,
         fontFamily: 'F1-Bold',
         width: 40,
         textAlign: 'center'
@@ -59,7 +58,7 @@ const styles = StyleSheet.create({
         marginLeft: 3
     },
     driverImage: {
-        height: 70,
+        height: 80,
         aspectRatio: 1,
         width: 50,
         borderRadius: 30,
