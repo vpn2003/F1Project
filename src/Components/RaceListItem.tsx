@@ -15,7 +15,7 @@ export default function RaceListItem({ item, round }: { item: (typeof races)[0];
             <Text style={styles.month}>{dayjs(item.date).format('MMM')}</Text>
           </View>
           <View style= {{flex: 1}}>
-            <Text style={styles.round}>Round {round} {item.id}</Text>
+            <Text style={styles.round}>Round {round}</Text>
             <Text style={styles.country}>{item.competition.location.country}</Text>
             <Text style={styles.description}>
               Formula 1 {item.competition.name} {item.season}

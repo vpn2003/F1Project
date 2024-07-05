@@ -7,7 +7,7 @@ type RankingListItemProps = {
     item: (typeof raceRankings)[0];
 }
 
-export default function RankingListItem({ item }: RankingListItemProps){
+export default  function RankingListItem ({ item }: RankingListItemProps) {
     return (
         <View style= {styles.container}>
             <Text style= {styles.position}>{item.position}</Text>

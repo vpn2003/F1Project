@@ -1,6 +1,5 @@
 import { Stack, Tabs, withLayoutContext } from 'expo-router';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 const Tab = createMaterialTopTabNavigator();
 const TopTabs = withLayoutContext(Tab.Navigator);
