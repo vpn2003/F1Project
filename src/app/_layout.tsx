@@ -27,7 +27,7 @@ export default function RootLayout() {
                 headerTitleAlign: 'center',
                 headerTintColor: 'white'
             }} >
-                <Stack.Screen name="index" options={{ title: 'Racing' }}></Stack.Screen>
+                <Stack.Screen name="index" options={{ title: 'Formula 1' }}></Stack.Screen>
             </Stack>
 
             <StatusBar style= 'light' />

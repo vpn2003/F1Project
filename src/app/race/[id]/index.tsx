@@ -21,8 +21,8 @@ const RaceDetails = () => {
   return (
     
     <View style= {styles.page}>
-      <Text style={{fontSize: 20, fontWeight: 'bold'}}>{race.competition.location.country} {race.season}</Text>
-      <Text style={{fontSize: 15}}>{race.circuit.name}</Text>
+      <Text style={{fontSize: 25, fontFamily: 'F1-Regular', paddingLeft: 10, paddingTop: 10}}>{race.competition.location.country} {race.season}</Text>
+      <Text style={{fontSize: 20, fontWeight: 'bold', color: 'dimgray', paddingLeft: 10}}>{race.circuit.name}</Text>
       <Image 
         source={{uri: race.circuit.image}}
         style={styles.image} 
@@ -35,13 +35,17 @@ const RaceDetails = () => {
 
 const styles = StyleSheet.create({
   page:{
-    padding: 10
+    padding: 0,
+    backgroundColor: 'white',
+    height: '100%'
   },
   image:{
     width: '100%',
+    height: '35%',
     aspectRatio: 16 / 9,
     marginRight: 15,
-    marginTop: 5
+    marginTop: 15,
+    marginLeft: -10
   }
 })
 export default RaceDetails;

@@ -11,7 +11,7 @@
         {
           "circuit": {
             "id": 2,
-            "image": "https://media.api-sports.io/formula-1/circuits/2.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2020/11/Bahrain_Track_Map_ENG-1920x1280.jpg",
             "name": "Bahrain International Circuit"
           },
           "date": "2024-03-02T15:00:00Z",
@@ -44,7 +44,7 @@
         {
           "circuit": {
             "id": 29,
-            "image": "https://media.api-sports.io/formula-1/circuits/29.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2023/03/230118_TrackMaps_EN-1920x1080.webp",
             "name": "Jeddah Corniche Circuit"
           },
           "date": "2024-03-09T17:00:00Z",
@@ -77,7 +77,7 @@
         {
           "circuit": {
             "id": 1,
-            "image": "https://media.api-sports.io/formula-1/circuits/1.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2023/11/M360335.webp",
             "name": "Albert Park Circuit"
           },
           "date": "2024-03-24T04:00:00Z",
@@ -110,7 +110,7 @@
         {
           "circuit": {
             "id": 19,
-            "image": "https://media.api-sports.io/formula-1/circuits/19.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2023/11/M339144.webp",
             "name": "Suzuka International Racing Course"
           },
           "date": "2024-04-07T05:00:00Z",
@@ -143,7 +143,7 @@
         {
           "circuit": {
             "id": 4,
-            "image": "https://media.api-sports.io/formula-1/circuits/4.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2020/09/China-4K-1920x1080.webp",
             "name": "Shanghai International Circuit"
           },
           "date": "2024-04-21T07:00:00Z",
@@ -176,7 +176,7 @@
         {
           "circuit": {
             "id": 31,
-            "image": "https://media.api-sports.io/formula-1/circuits/31.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2023/11/M366219.webp",
             "name": "Miami International Autodrome"
           },
           "date": "2024-05-05T20:00:00Z",
@@ -209,7 +209,7 @@
         {
           "circuit": {
             "id": 27,
-            "image": "https://media.api-sports.io/formula-1/circuits/27.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2020/10/MF1_201027_IMOLA_TRACK_MAP_LIGHT_16x9_ENG-812x497.jpg",
             "name": "Autodromo Enzo e Dino Ferrari"
           },
           "date": "2024-05-19T13:00:00Z",
@@ -242,7 +242,7 @@
         {
           "circuit": {
             "id": 7,
-            "image": "https://media.api-sports.io/formula-1/circuits/7.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2020/09/Monaco-4K-1920x1080.webp",
             "name": "Circuit de Monaco"
           },
           "date": "2024-05-26T13:00:00Z",
@@ -275,7 +275,7 @@
         {
           "circuit": {
             "id": 9,
-            "image": "https://media.api-sports.io/formula-1/circuits/9.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2023/11/M375764.webp",
             "name": "Circuit Gilles-Villeneuve"
           },
           "date": "2024-06-09T18:00:00Z",
@@ -308,7 +308,7 @@
         {
           "circuit": {
             "id": 6,
-            "image": "https://media.api-sports.io/formula-1/circuits/6.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2020/09/Spain-1-812x574.jpg",
             "name": "Circuit de Barcelona-Catalunya"
           },
           "date": "2024-06-23T13:00:00Z",
@@ -341,7 +341,7 @@
         {
           "circuit": {
             "id": 11,
-            "image": "https://media.api-sports.io/formula-1/circuits/11.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2020/09/Austria-1-812x526.jpg",
             "name": "Red Bull Ring"
           },
           "date": "2024-06-30T13:00:00Z",
@@ -374,7 +374,7 @@
         {
           "circuit": {
             "id": 12,
-            "image": "https://media.api-sports.io/formula-1/circuits/12.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2020/09/Britain-812x574.jpg",
             "name": "Silverstone Circuit"
           },
           "date": "2024-07-07T14:00:00Z",
@@ -407,7 +407,7 @@
         {
           "circuit": {
             "id": 14,
-            "image": "https://media.api-sports.io/formula-1/circuits/14.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2020/09/Hungary-812x574.jpg",
             "name": "Hungaroring"
           },
           "date": "2024-07-21T13:00:00Z",
@@ -440,7 +440,7 @@
         {
           "circuit": {
             "id": 15,
-            "image": "https://media.api-sports.io/formula-1/circuits/15.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2020/09/Belgium-1-812x574.jpg",
             "name": "Circuit de Spa-Francorchamps"
           },
           "date": "2024-07-28T13:00:00Z",
@@ -473,7 +473,7 @@
         {
           "circuit": {
             "id": 5,
-            "image": "https://media.api-sports.io/formula-1/circuits/5.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2023/11/M389393.webp",
             "name": "Circuit Zandvoort"
           },
           "date": "2024-08-25T13:00:00Z",
@@ -506,7 +506,7 @@
         {
           "circuit": {
             "id": 16,
-            "image": "https://media.api-sports.io/formula-1/circuits/16.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2020/09/Italy-1-812x574.jpg",
             "name": "Autodromo Nazionale Monza"
           },
           "date": "2024-09-01T13:00:00Z",
@@ -539,7 +539,7 @@
         {
           "circuit": {
             "id": 8,
-            "image": "https://media.api-sports.io/formula-1/circuits/8.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2023/11/M363105.webp",
             "name": "Baku City Circuit"
           },
           "date": "2024-09-15T11:00:00Z",
@@ -572,7 +572,7 @@
         {
           "circuit": {
             "id": 17,
-            "image": "https://media.api-sports.io/formula-1/circuits/17.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2023/11/M392829.webp",
             "name": "Marina Bay Street Circuit"
           },
           "date": "2024-09-22T12:00:00Z",
@@ -605,7 +605,7 @@
         {
           "circuit": {
             "id": 20,
-            "image": "https://media.api-sports.io/formula-1/circuits/20.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2023/10/M399100-1.webp",
             "name": "Circuit of The Americas"
           },
           "date": "2024-10-20T19:00:00Z",
@@ -638,7 +638,7 @@
         {
           "circuit": {
             "id": 21,
-            "image": "https://media.api-sports.io/formula-1/circuits/21.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2023/11/M401315.webp",
             "name": "Autódromo Hermanos Rodríguez"
           },
           "date": "2024-10-27T20:00:00Z",
@@ -671,7 +671,7 @@
         {
           "circuit": {
             "id": 22,
-            "image": "https://media.api-sports.io/formula-1/circuits/22.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2023/11/M403616.webp",
             "name": "Autódromo José Carlos Pace"
           },
           "date": "2024-11-03T17:00:00Z",
@@ -704,7 +704,7 @@
         {
           "circuit": {
             "id": 32,
-            "image": "https://media.api-sports.io/formula-1/circuits/32.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2023/11/Las-Vegas-Strip-Circuit.webp",
             "name": "Las Vegas Strip Circuit"
           },
           "date": "2024-11-24T06:00:00Z",
@@ -737,7 +737,7 @@
         {
           "circuit": {
             "id": 30,
-            "image": "https://media.api-sports.io/formula-1/circuits/30.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2023/11/M396229.webp",
             "name": "Losail International Circuit"
           },
           "date": "2024-12-01T17:00:00Z",
@@ -770,7 +770,7 @@
         {
           "circuit": {
             "id": 23,
-            "image": "https://media.api-sports.io/formula-1/circuits/23.png",
+            "image": "https://f1chronicle.com/wp-content/uploads/2020/12/Yas-Marina-Circuit-1920x1080.jpg",
             "name": "Yas Marina Circuit"
           },
           "date": "2024-12-08T13:00:00Z",

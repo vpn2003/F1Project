@@ -58,6 +58,7 @@ export default function RaceListItem({ item, round }: { item: (typeof races)[0];
       width: 80
     },
     date: {
+      fontSize: 20,
       fontFamily: 'F1-Regular',
     },
     month: {
@@ -68,10 +69,10 @@ export default function RaceListItem({ item, round }: { item: (typeof races)[0];
       overflow: 'hidden',
       color: 'dimgray',
       fontWeight: 'bold',
-      fontSize: 12,
+      fontSize: 15,
       marginTop: 3,
-      marginRight: 7,
-      marginLeft: 7,
+      marginRight: 5,
+      marginLeft: 5,
       fontFamily: 'F1-Regular'
     },
     round: {
