@@ -2,7 +2,7 @@ import { useFonts } from "expo-font";
 import { Stack } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, ActivityIndicator, View } from "react-native";
-import { Colors } from "react-native/Libraries/NewAppScreen";
+import ApolloClientProvider from "../providers/ApolloClientProvider";
 
 export default function RootLayout() {
     const [fontsLoaded] = useFonts({
@@ -20,7 +20,7 @@ export default function RootLayout() {
     }
 
     return (
-        <>
+        <ApolloClientProvider>
             <Stack screenOptions={{
                 headerStyle: { backgroundColor: '#FF1E00' },
                 headerTitleStyle: { color: 'white', fontFamily: "F1-Bold" },
@@ -31,7 +31,7 @@ export default function RootLayout() {
             </Stack>
 
             <StatusBar style= 'light' />
-        </>
+        </ApolloClientProvider>
     );
 }
 

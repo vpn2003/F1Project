@@ -24,3 +24,48 @@ stepzen import curl --request GET \
 		--query-type "RaceRankings" \
 		--name "raceRankings" \
 		--prefix "rank"
+
+stepzen import curl `
+    --request GET `
+    --url 'https://v1.formula-1.api-sports.io/rankings/teams?season=2024' `
+    --header 'x-rapidapi-host: v1.formula-1.api-sports.io' `
+    --header 'x-rapidapi-key: 8cb5bec7bc9d82a58c510f7df8407dac' `
+    --query-name "raceRankings" `
+    --query-type "RaceRankings" `
+    --name "raceRankings" `
+    --prefix "rank"
+
+stepzen import curl `
+    curl --request GET `
+	--url 'https://v1.formula-1.api-sports.io/rankings/teams?season=2024' `
+	--header 'x-rapidapi-host: v1.formula-1.api-sports.io' `
+	--header 'x-rapidapi-key: 8cb5bec7bc9d82a58c510f7df8407dac' `
+    --query-name "teamRankings" `
+    --query-type "teamRankings" `
+    --name "teamRankings" `
+    --prefix "team"
+
+stepzen import curl `
+    --request GET `
+    --url 'https://v1.formula-1.api-sports.io/rankings/races?race=50' `
+    --header 'x-rapidapi-host: v1.formula-1.api-sports.io' `
+    --header 'x-rapidapi-key: 8cb5bec7bc9d82a58c510f7df8407dac' `
+		--query-name "rankings" `
+		--query-type "rankings" `
+		--name "rankings" `
+		--prefix "rank"
+
+stepzen import curl `
+    --request GET `
+    --url 'https://v1.formula-1.api-sports.io/races?competition=23&season=2024' `
+    --header 'x-rapidapi-host: v1.formula-1.api-sports.io' `
+    --header 'x-rapidapi-key: 8cb5bec7bc9d82a58c510f7df8407dac' `
+		--query-name "racing" `
+		--query-type "racing" `
+		--name "racing" `
+		--prefix "racing"
+
+curl --request GET \
+	--url 'https://v1.formula-1.api-sports.io/races?competition=23&season=2024' \
+	--header 'x-rapidapi-host: v1.formula-1.api-sports.io' \
+	--header 'x-rapidapi-key: XxXxXxXxXxXxXxXxXxXxXxXx'

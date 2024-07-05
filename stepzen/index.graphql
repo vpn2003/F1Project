@@ -8,6 +8,7 @@ schema
       "raceRankings-03/index.graphql"
       "raceRankings-04/index.graphql"
       "rankings/index.graphql"
+      "racing/index.graphql"
     ]
   ) {
   query: Query
