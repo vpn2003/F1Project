@@ -32,6 +32,7 @@ export default function RaceListItem({ item, round }: { item: (typeof races)[0];
       </Link>
     )
   }
+  else{
     return (
       <Link href={`/race/${item.id}`} asChild>
         <Pressable style={styles.itemContainer}>
@@ -52,6 +53,7 @@ export default function RaceListItem({ item, round }: { item: (typeof races)[0];
         </Pressable>
       </Link>
     );
+  }
   }
 
 
